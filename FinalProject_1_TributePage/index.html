@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- TITLE -->
+        <title>Final Project 1 of 5: Tribute Page | Mr. Bảo Trần</title>
+        <!-- FAVICON -->
+        <meta name="description" content="Final Project 1 of 5: Tribute Page | Responsive Web Design @ FreeCodeCamp | Mr. Bảo Trần" />
+        <link rel="shortcut icon" href="http://quocbaoit.com/tqb13.jpg" />    
+        <!-- META TAGS -->
+        <meta charset="utf-8" />
+        <meta name="author" content="Mr. Bảo Trần" />
+        <meta name="keyword" content="TQB13, QuốcBảoIT, QuocBaoIT, Micae Trần Quốc Bảo, Quôc Bảo, Trần Quốc Bảo" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Mali|Helvetica+Neue" rel="stylesheet">
+        <link href="./style.css" rel="stylesheet">
+    </head>
+    <body>
+        <main id="main">
+            <h1 id="title">Mr. Bảo Trần</h1>
+            <p>Tuy không giỏi.. nhưng được cái... dở</p>
+            <figure id="img-div">
+                <img id="image" src="./PXL_20200929_134945255.jpg" alt="Bảo chuẩn bị TếtTrung Thu 2020 tại Gx. Hàng Xanh">
+                <figcaption id="img-caption">Những công đoạn cuối để chuẩn bị cho tết Trung Thu 2020 tại Gx. Hàng Xanh</figcaption>
+            </figure>
+            <section id="tribute-info">
+                <h3 id="headline">Các mốc thời gian đặc biệt của Bảo</h3>
+                <ul>
+                    <li>
+                        <div class="timeline"> <b>2001</b> </div>
+                        <div class="description">
+                            <p>- Sinh ra tại Trạm Y tế Phường 4, thị xã Vĩnh Long</p>
+                        </div>
+                    </li>
+                <li>
+                    <div class="timeline"> <b>2007</b> </div>
+                    <div class="description">
+                        <p>- Học tại Trường Tiểu học Hòa Ninh B</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline"> <b>2012</b> </div>
+                    <div class="description">
+                        <p>- Tốt nghiệp Trường Tiểu học Hòa Ninh B</p>
+                        <p>- Học tại Trường Trung học Cơ sở Thanh Đức</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline"> <b>2016</b> </div>
+                    <div class="description">
+                        <p>- Tốt nghiệp Trường Trung học Cơ sở Thanh Đức</p>
+                        <p>- Học tại Trung học Phổ thông Lưu Văn Liệt</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline"> <b>2019</b> </div>
+                    <div class="description">
+                        <p>- Tốt nghiệp Trung học Phổ thông Lưu Văn Liệt</p>
+                        <p>- Học tại Trường Đại học Giao Thông vận tải TPHCM</p>
+                    <div>
+                </li>
+                </ul>
+                <blockquote cite="https://thanhcavietnam.net/LoiNhac/showthread.php?t=4198">
+                    <p><sup><b>2.</b></sup> 
+                        Dù con có bao công sức tài năng, nhưng ích gì chăng nếu như không được Ngài, chính Chúa an bài tất cả là cho con, chính Chúa thương tình Ngài hằng luôn giữ gìn.</p>
+                    <p><sup><b>ĐK.</b></sup> 
+                        Ví như Chúa chẳng xây nhà, thợ nề vất và cũng là uống công. Thành kia Chúa chẳng canh phòng đêm khuya hôm sớm trông chừng hoài công.</p>
+                    <cite>--- Ví Như - Linh mục Thái Nguyên ---</cite>
+                </blockquote>
+                <!-- <iframe src="https://www.nhaccuatui.com/mh/background/xHzC7g3ug2T3" width="0" height="0" frameborder="0" allowfullscreen allow="autoplay"></iframe> -->
+                <audio id="vinhu" controls>
+                      <source src="./ViNhu-MaiHau.mp3" type="audio/mpeg">
+                </audio>
+                <h3>Nếu bạn có thời gian, hãy rủ anh chàng "bận rộn" này đi uống cà phê bằng cách <a id="tribute-link" href="http://fb.quocbaoit.com" target="_blank">nhắn tin Facebook</a>. </h3>
+            </section>
+            <footer>
+                <div class="ft"><b>Final Project 1 of 5:</b> Tribute Page</div>
+                <div class="ft">Responsive Web Design @ FreeCodeCamp</div>
+                <div class="ft">Created by <b>QuocBaoIT</b></div>
+                <div class="ft">Completed on April 25, 2021</div>
+            </footer>
+        <main>
+        <script>
+            const projectName = 'tribute-page';
+            var vinhu = document.getElementById("vinhu");
+            vinhu.autoplay = true;
+            vinhu.load();
+            vinhu.loop = true;
+            vinhu.volume = 0.4;
+        </script>
+    </body>
+</html>
